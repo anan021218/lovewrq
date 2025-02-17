@@ -58,10 +58,10 @@ noButton.addEventListener("click", function () {
 
   // 图片变化（前 5 次变化）
   if (clickCount === 1) mainImage.src = "main/lovewrq/images/a.png"; // 震惊
-  if (clickCount === 2) mainImage.src = "/main/lovewrq/images/b.png"; // 思考
-  if (clickCount === 3) mainImage.src = "lovewrq/images/c.png"; // 生气
-  if (clickCount === 4) mainImage.src = "lovewrq/images/d.png"; // 哭
-  if (clickCount >= 5) mainImage.src = "lovewrq/images/crying.png"; // 之后一直是哭
+  if (clickCount === 2) mainImage.src = "main/lovewrq/images/b.png"; // 思考
+  if (clickCount === 3) mainImage.src = "main/lovewrq/images/c.png"; // 生气
+  if (clickCount === 4) mainImage.src = "main/lovewrq/images/d.png"; // 哭
+  if (clickCount >= 5) mainImage.src = "main/lovewrq/images/crying.png"; // 之后一直是哭
 });
 
 // Yes 按钮点击后，进入表白成功页面
@@ -74,7 +74,7 @@ yesButton.addEventListener("click", function () {
   document.body.innerHTML = `
         <div class="yes-screen">
             <h1 class="yes-text"></h1>
-            <img src="lovewrq/images/5.png" alt="拥抱" class="yes-image">
+            <img src="main/lovewrq/images/5.png" alt="拥抱" class="yes-image">
         </div>
     `;
 
